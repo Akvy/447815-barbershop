@@ -8,21 +8,28 @@
     <header class="main-header">
       <h1 class="visually-hidden">Барбершоп "Бородинский"</h1>
       <nav class="main-nav">
-        <a class="header-main-logo"><img src="img/main-logo.svg" alt="Лого барбершопа «Бородинский»" width="400" height="200"></a>
+        <a class="header-main-logo">
+          <img src="img/main-logo.svg" alt="Лого барбершопа «Бородинский»" width="400" height="200"></a>
         <ul class="header-nav-list">
-          <li><a href="#">Информация</a></li>
-          <li><a href="#">Новости</a></li>
-          <li><a href="#">Прайс-лист</a></li>
-          <li><a href="#">Магазин</a></li>
-          <li><a href="#">Контакты</a></li>
+          <li>
+            <a href="#">Информация</a></li>
+          <li>
+            <a href="#">Новости</a></li>
+          <li>
+            <a href="#">Прайс-лист</a></li>
+          <li>
+            <a href="#">Магазин</a></li>
+          <li>
+            <a href="#">Контакты</a></li>
         </ul>
         <ul class="header-user-nav">
-          <li><a href="#">Вход</a></li>
+          <li>
+            <a href="#">Вход</a></li>
         </ul>
       </nav>
 
     </header>
-    <main>
+    <main class="container">
       <section class="features">
         <h2 class="visually-hidden">Преимущества</h2>
         <ul class="features-list">
@@ -60,11 +67,12 @@
       <section class="gallery">
         <h2>Фотогалерея</h2>
         <figure>
-          <a href="#"><img src="img/gallery-1.jpg" alt="Вид салона" width="250" height="150"></a>
+          <a href="#">
+            <img src="img/gallery-1.jpg" alt="Вид салона" width="250" height="150"></a>
         </figure>
         <p>
-        <button type="button" name="gallery-button-back">Назад</button>
-        <button type="button" name="gallery-button-forward">Вперёд</button>
+          <button type="button" name="gallery-button-back">Назад</button>
+          <button type="button" name="gallery-button-forward">Вперёд</button>
         </p>
       </section>
 
@@ -87,14 +95,14 @@
         <h2>Записаться</h2>
         <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
         <form class="appointment-form" action="index.html" method="post">
-          <label for="date">Дата</label>
-          <input id="date" type="text" name="date"  value="" placeholder="08.11.2017"> <br>
-          <label for="time">Время</label>
-          <input id="time" type="text" name="time"  value="" placeholder="10:00"> <br>
-          <label for="name">Ваше имя</label>
-          <input id="name" type="text" name="name"  value="" placeholder="Борода"> <br>
-          <label for="tel">Телефон</label>
-          <input id="tel" type="text" name="tel"  value="" placeholder="+7-495-123-45-67">
+          <label for="date">Дата
+            <input id="date" type="text" name="date"  value="" placeholder="08.11.2017"> </label>
+          <label for="time">Время
+            <input id="time" type="text" name="time"  value="" placeholder="10:00"> </label>
+          <label for="name">Ваше имя
+            <input id="name" type="text" name="name"  value="" placeholder="Борода"> </label>
+          <label for="tel">Телефон
+            <input id="tel" type="text" name="tel"  value="" placeholder="+7-495-123-45-67"> </label>
         </form>
         <button type="submit" name="appointment-button">Отправить</button>
       </section>
@@ -103,10 +111,14 @@
         <h2>Личный кабинет</h2>
         <p>Введите пожалуйста свой логин и пароль</p>
         <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
-          <p><input type="text" name="login" value="" placeholder="Логин"></p>
-          <p><input type="text" name="password"  value="" placeholder="Пароль"></p>
-          <p><input type="checkbox" checked name="remember" class="visually-hidden" id="remember" value=""><label for="remember">Запомните меня</label>
-          <a href="#">Я забыл пароь!</a></p>
+          <p>
+            <input type="text" name="login" value="" placeholder="Логин"></p>
+          <p>
+            <input type="text" name="password"  value="" placeholder="Пароль"></p>
+          <p>
+            <input type="checkbox" checked name="remember" class="visually-hidden" id="remember" value="">
+            <label for="remember">Запомните меня</label>
+            <a href="#">Я забыл пароь!</a></p>
           <button type="submit" name="button">Войти</button>
         </form>
         <span class="modal-close">X</span>
@@ -115,20 +127,25 @@
     </main>
 
     <footer class="main-footer">
-      <p>
+      <p class="footer-adress">
       Барбершоп «Бородинский» <br>
       Адрес: г. Санкт-петербург, ул. Б. Конюшенная, д. 19/8 <br>
       <a href="#">Как нас найти?</a> <br>
       Телефон: +7 (495) 666-02-66
       </p>
-      <div> <b>Давайте дружить!</b>
+      <div class="social-container">
+        <b>Давайте дружить!</b>
         <ul class="social-list">
-          <li><a href="#" class="social-button social-button-vk">Вконтакте</a></li>
-          <li><a href="#" class="social-button social-button-fb">Фейсбук</a></li>
-          <li><a href="#" class="social-button social-button-ig">Инстаграм</a></li>
+          <li>
+            <a href="#" class="social-button social-button-vk">Вконтакте</a></li>
+          <li>
+            <a href="#" class="social-button social-button-fb">Фейсбук</a></li>
+          <li>
+            <a href="#" class="social-button social-button-ig">Инстаграм</a></li>
         </ul>
       </div>
-      <p> <b>Разработано:</b>
+      <p class="footer-copyright">
+        <b>Разработано:</b>
         <a href="#" class="button developer-button">HTML Academy</a>
       </p>
     </footer>
