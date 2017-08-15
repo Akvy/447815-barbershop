@@ -1,0 +1,22 @@
+body
+{
+  font-size: 14px;
+  line-height: 24px;
+  color: black;
+  font-family: PT Sans Narrow;
+  font-weight: normal;
+  text-transform: uppercase;
+  background: gray; /*Это временный фон, чтобы картинки хоть видно было :)*/
+}
+h1
+{
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: bold;
+}
+h2
+{
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: bold;
+}
