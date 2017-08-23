@@ -1,3 +1,5 @@
+/* == GLOBAL ==*/
+
 body {
   padding: 0;
   margin: 0;
@@ -46,6 +48,8 @@ a {
   background-color: #663d15;
 }
 
+/* == HEADER == */
+
 .main-nav {
   font-size: 16px;
   line-height: 20px;
@@ -69,6 +73,95 @@ a {
 .header-user-nav a:focus {
   background-color: #242424;
 }
+
+/*== FOOTER ==*/
+
+.main-footer {
+  color: #ffffff;
+
+  background-color: #212121;
+  background-image: url("../img/pattern-dark.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.footer-adress a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-adress a:hover,
+.footer-adress a:focus {
+  text-decoration: none;
+}
+
+.social-container {
+  text-align: center;
+}
+
+.social-container ul {
+  list-style: none;
+}
+
+.social-link {
+  color: #ffffff;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+.footer-copyright .developer-link:hover,
+.footer-copyright .developer-link:focus {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.modal {
+  color: #000000;
+
+  background-color: #f8f3f0;
+  background-image: url("../img/pattern-light.png");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.modal h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  font: inherit;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #f9f6f3;
+  border: 2px solid #000000;
+}
+
+.login-form input:focus {
+  border-color: #663d15;
+}
+
+.login-checkbox:hover,
+.login-checkbox:focus {
+  color: #663d15;
+}
+
+.restore {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.restore:hover,
+.restore:focus {
+  text-decoration: none;
+}
+
+/*== INDEX ==*/
 
 .features-list {
   list-style: none;
@@ -120,6 +213,8 @@ a {
 .appointment-form input:focus {
   border-color: #663d15;
 }
+
+/*== CATALOG ==*/
 
 .page-title {
   font-size: 30px;
@@ -237,6 +332,8 @@ a {
   background-color: #ffffff;
 }
 
+/*== CATALOG-ITEM ==*/
+
 .product-photo-preview {
   list-style: none;
 }
@@ -269,100 +366,3 @@ a {
 .catalog-item-description ul {
   list-style: none;
 }
-
-
-.main-footer {
-  color: #ffffff;
-
-  background-color: #212121;
-  background-image: url("../img/pattern-dark.jpg");
-  background-position: 0 0;
-  background-repeat: repeat;
-}
-
-.footer-adress a {
-  color: #ffffff;
-  text-decoration: underline;
-}
-
-.footer-adress a:hover,
-.footer-adress a:focus {
-  text-decoration: none;
-}
-
-.social-container {
-  text-align: center;
-}
-
-.social-container ul {
-  list-style: none;
-}
-
-.social-link {
-  color: #ffffff;
-}
-
-.footer-copyright {
-  text-align: center;
-}
-
-.footer-copyright .developer-link:hover,
-.footer-copyright .developer-link:focus {
-  color: #000000;
-
-  background-color: #ffffff;
-}
-
-.modal {
-  color: #000000;
-
-  background-color: #f8f3f0;
-  background-image: url("../img/pattern-light.png");
-  background-position: 0 0;
-  background-repeat: repeat;
-}
-
-.modal h2 {
-  font-size: 30px;
-  line-height: 42px;
-}
-
-.login-form input[type="text"],
-.login-form input[type="password"] {
-  font: inherit;
-  color: #000000;
-  text-transform: uppercase;
-
-  background-color: #f9f6f3;
-  border: 2px solid #000000;
-}
-
-.login-form input:focus {
-  border-color: #663d15;
-}
-
-.login-checkbox:hover,
-.login-checkbox:focus {
-  color: #663d15;
-}
-
-.restore {
-  color: #000000;
-  text-decoration: underline;
-}
-
-.restore:hover,
-.restore:focus {
-  text-decoration: none;
-}
-
-/*h1 {
-  font-size: 30px;
-  line-height: 42px;
-  font-weight: bold;
-}
-h2 {
-  font-size: 30px;
-  line-height: 42px;
-  font-weight: bold;
-}*/
