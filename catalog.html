@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог - Барбершоп "Бородинский"</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="inner-page">
     <header class="main-header">
       <nav class="main-nav">
         <a href="index.html" class="header-main-logo">
@@ -38,16 +40,16 @@
     </header>
 
     <main class="container">
-      <h1>Средства для ухода</h1>
+      <h1 class="page-title">Средства для ухода</h1>
 
-      <ul class="breadcrums">
+      <ul class="breadcrumbs">
         <li>
           <a href="index.html">Главная</a>
         </li>
         <li>
           <a href="#">Магазин</a>
         </li>
-        <li class="breadcrums-current">Средства для ухода
+        <li class="breadcrumbs-current">Средства для ухода
         </li>
       </ul>
 
@@ -60,27 +62,27 @@
 
             <ul>
               <li>
-                <input type="checkbox" class="visually-hidden" id="baxter" name="baxter">
+                <input type="checkbox" class="filter-input visually-hidden" id="baxter" name="baxter">
                 <label for="baxter">Baxter of California</label>
               </li>
               <li>
-                <input type="checkbox" class="visually-hidden" id="natty" name="natty">
+                <input type="checkbox" class="filter-input visually-hidden" id="natty" name="natty">
                 <label for="natty">Mr Natty</label>
               </li>
               <li>
-                <input type="checkbox" class="visually-hidden" id="suavecito" name="suavecito">
+                <input type="checkbox" class="filter-input visually-hidden" id="suavecito" name="suavecito">
                 <label for="suavecito">Suavecito</label>
               </li>
               <li>
-                <input type="checkbox" class="visually-hidden" id="malin-goetz" name="malin-goetz">
+                <input type="checkbox" class="filter-input visually-hidden" id="malin-goetz" name="malin-goetz">
                 <label for="malin-goetz">Malin-goetz</label>
               </li>
               <li>
-                <input type="checkbox" class="visually-hidden" id="murrays" name="murrays">
+                <input type="checkbox" class="filter-input visually-hidden" id="murrays" name="murrays">
                 <label for="murrays">Murray's</label>
               </li>
               <li>
-                <input type="checkbox" class="visually-hidden" id="americancrew" name="americancrew">
+                <input type="checkbox" class="filter-input visually-hidden" id="americancrew" name="americancrew">
                 <label for="americancrew">American crew</label>
               </li>
             </ul>
@@ -91,15 +93,15 @@
 
             <ul>
               <li>
-                <input type="radio" class="visually-hidden" id="razor" name="item-group" value="razor">
+                <input type="radio" class="filter-input visually-hidden" id="razor" name="item-group" value="razor">
                 <label for="razor">Бритвенные принадлежности</label>
               </li>
               <li>
-                <input type="radio" class="visually-hidden" id="care" name="item-group" value="care">
+                <input type="radio" class="filter-input visually-hidden" id="care" name="item-group" value="care">
                 <label for="care">Средства для ухода</label>
               </li>
               <li>
-                <input type="radio" class="visually-hidden" id="accessories" name="item-group" value="accessories">
+                <input type="radio" class="filter-input visually-hidden" id="accessories" name="item-group" value="accessories">
                 <label for="accessories">Аксессуары</label>
               </li>
             </ul>
@@ -112,8 +114,8 @@
       <section class="catalog">
         <h2 class="visually-hidden">Каталог средств для ухода</h2>
 
-        <ul>
-          <li>
+        <ul class="catalog-list">
+          <li class="catalog-item">
             <a href="#">
               <h3>
                 <span class="catalog-category">Набор для путешествий</span>
@@ -129,7 +131,7 @@
               <a href="#" class="button catalog-button">Купить</a>
             </p>
           </li>
-          <li>
+          <li class="catalog-item">
             <a href="#">
               <h3>
                 <span class="catalog-category">Увлажняющий кондиционер</span>
@@ -145,7 +147,7 @@
               <a href="#" class="button catalog-button">Купить</a>
             </p>
           </li>
-          <li>
+          <li  class="catalog-item">
             <a href="#">
               <h3>
                 <span class="catalog-category">Гель для волос</span>
@@ -161,7 +163,7 @@
               <a href="#" class="button catalog-button">Купить</a>
             </p>
           </li>
-          <li>
+          <li class="catalog-item">
             <a href="#">
               <h3>
                 <span class="catalog-category">Глина для укладки волос</span>
@@ -177,7 +179,7 @@
               <a href="#" class="button catalog-button">Купить</a>
             </p>
           </li>
-          <li>
+          <li class="catalog-item">
             <a href="#">
               <h3>
                 <span class="catalog-category">Гель для волос</span>
@@ -193,7 +195,7 @@
               <a href="#" class="button catalog-button">Купить</a>
             </p>
           </li>
-          <li>
+          <li class="catalog-item">
             <a href="#">
               <h3>
                   <span class="catalog-category">Набор для бритья</span>
@@ -210,17 +212,17 @@
             </p>
           </li>
         </ul>
-        <ul class="plaginator">
-          <li class="plaginator-item">
+        <ul class="paginator">
+          <li class="paginator-item">
             <a href="#">1</a>
           </li>
-          <li class="plaginator-item plaginator-item-current">
+          <li class="paginator-item paginator-item-current">
             <a href="#">2</a>
           </li>
-          <li class="plaginator-item">
+          <li class="paginator-item">
             <a href="#">3</a>
           </li>
-          <li class="plaginator-item">
+          <li class="paginator-item">
             <a href="#">4</a>
           </li>
         </ul>
@@ -244,23 +246,24 @@
               <input type="text" name="password" placeholder="Пароль">
             </label>
           </p>
+          <p>
             <input type="checkbox" checked name="remember" class="visually-hidden" id="remember">
             <label for="remember">Запомните меня</label>
             <a href="#">Я забыл пароль!</a>
           </p>
 
-          <button type="submit" name="button login-button">Войти</button>
+          <button type="submit" class="button login-button">Войти</button>
         </form>
       </section> <!-- end modal-login -->
 
       <section class="modal modal-map">
         <button class="modal-close" type="button">Закрыть</button>
 
-        <p>
+        <div>
           <h2 class="visually-hidden">Как до нас добраться?</h2>
 
           <img src="img/map.jpg" width="766" height="560" alt="Адрес: г. Санкт-петербург, ул. Б. Конюшенная, д. 19/8">
-        </p>
+        </div>
       </section> <!-- end modal-map -->
 
     </main>

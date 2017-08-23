@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Товар из каталога - Барбершоп "Бородинский"</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="inner-page">
     <header class="main-header">
       <nav class="main-nav">
         <a href="index.html" class="header-main-logo">
@@ -49,7 +51,7 @@
       <li>
         <a href="#">Средства для ухода</a>
       </li>
-      <li>Набор для путешествий «Baxter of California»
+      <li class="breadcrumbs-current">Набор для путешествий «Baxter of California»
       </li>
     </ul>
 
@@ -60,7 +62,7 @@
         <img src="img/item-travel-kit-main.jpg" alt="Набор для путешествий, большое фото" width="465" height="500">
       </div>
 
-      <ul>
+      <ul class="product-photo-preview">
         <li class="photo-small-1">
           <img src="img/item-travel-kit-side-1.jpg" alt="Набор для путешествий, доп. фото-1" width="145" height="150">
         </li>
@@ -119,18 +121,18 @@
           <a href="#">Я забыл пароль!</a>
         </p>
 
-        <button type="submit" name="button login-button">Войти</button>
+        <button type="submit" class="button login-button">Войти</button>
       </form>
     </section> <!-- end modal-login -->
 
     <section class="modal modal-map">
       <button class="modal-close" type="button">Закрыть</button>
 
-      <p>
+      <div>
         <h2 class="visually-hidden">Как до нас добраться?</h2>
 
         <img src="img/map.jpg" width="766" height="560" alt="Адрес: г. Санкт-петербург, ул. Б. Конюшенная, д. 19/8">
-      </p>
+      </div>
     </section> <!-- end modal-map -->
 
   </main>
