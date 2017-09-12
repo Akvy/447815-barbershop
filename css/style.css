@@ -1344,8 +1344,9 @@ input[type="radio"].visually-hidden {
 
 /*== PRICE-LIST ==*/
 
-.inner-content {
-  margin-bottom: 61px;
+.inner-columns {
+  display: flex;
+  justify-content: space-between;
 }
 
 .big-header {
@@ -1378,16 +1379,9 @@ input[type="radio"].visually-hidden {
   margin-left: 30px;
 }
 
-.inner-columns {
-  display: flex;
-  justify-content: space-between;
-}
-
-.inner-column-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 390px;
+.inner-column-left,
+.inner-column-right {
+  width: 50%;
 }
 
 .inner-column-left h2,
@@ -1397,6 +1391,10 @@ input[type="radio"].visually-hidden {
 
   font-size: 24px;
   line-height: 30px;
+}
+
+.inner-column-right {
+  padding-left: 17px;
 }
 
 .custom-list-1 {
@@ -1427,18 +1425,9 @@ input[type="radio"].visually-hidden {
   transform: rotate(45deg);
 }
 
-.inner-column-left .short-text {
-  margin-top: 1px;
-}
-
-.inner-column-right {
-  width: 461px;
-}
-
 .custom-table-1 {
   width: 461px;
   margin-top: 32px;
-  margin-bottom: 118px;
 
   border: 2px solid #000000;
   border-collapse: collapse;
@@ -1461,6 +1450,19 @@ input[type="radio"].visually-hidden {
   text-align: left;
 }
 
+.inner-columns {
+  height: 271px;
+}
+
+.short-text {
+  width: 388px;
+}
+
 .inner-column-right .short-text {
-  width: 370px;
+  margin-top: 87px;
+  }
+
+.inner-columns.inner-columns-lower {
+  height: 260px;
+  margin-top: 11px;
 }
